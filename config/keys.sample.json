@@ -1,0 +1,8 @@
+{
+	"consumer_key": "",
+	"consumer_secret": "",
+	"tweets_per_month": 1000000,
+	"tweets_per_minute": 30,
+	"tweets_per_second": 10,
+	"tweets_per_request": 100
+}

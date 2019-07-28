@@ -1,0 +1,30 @@
+{
+  "name": "twit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "@types/node": "^12.6.8",
+    "bottleneck": "^2.19.4",
+    "json2csv": "^4.5.2",
+    "moment": "^2.24.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/moment": "^2.13.0",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "./node_modules/.bin/tsc app.ts",
+    "start": "npm run build && node app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
